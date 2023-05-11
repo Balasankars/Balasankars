@@ -17,6 +17,12 @@ pipeline {
     // Here you can define one or more stages for your pipeline.
     // Each stage can execute one or more steps.
     stages {
+	    pipeline {
+    // This line is required for declarative pipelines. Just keep it here.
+    agent any
+
+    // This section contains environment variables which are available for use in the
+    // pipeline's stages.
 	  stage('Build') {
    	    steps {
         // Get SHA1 of current commit
@@ -34,4 +40,5 @@ pipeline {
     }
 }
     }    
-           
+    }
+}
