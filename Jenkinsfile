@@ -19,8 +19,6 @@ pipeline {
     stages {
 	 pipeline {
     agent any
-    tools {
-        maven "Maven3"
     }
 	  stage('Build') {
    	    steps {
