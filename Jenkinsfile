@@ -1,4 +1,5 @@
 // Declarative pipelines must be enclosed with a "pipeline" directive.
+
 pipeline {
     ...
 
