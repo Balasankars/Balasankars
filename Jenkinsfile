@@ -17,8 +17,7 @@ pipeline {
     // Here you can define one or more stages for your pipeline.
     // Each stage can execute one or more steps.
     stages {
-	    pipeline {
-                stage('Build') {
+	  stage('Build') {
    	    steps {
         // Get SHA1 of current commit
         script {
@@ -35,4 +34,4 @@ pipeline {
     }
 }
     }    
-    }        
+           
