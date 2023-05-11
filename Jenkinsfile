@@ -12,7 +12,7 @@ pipeline {
         cluster = ""
         exec_role_arn = ""
     }
-    ...
+  
 }    
     // Here you can define one or more stages for your pipeline.
     // Each stage can execute one or more steps.
