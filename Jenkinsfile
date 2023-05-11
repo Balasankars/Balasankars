@@ -34,3 +34,4 @@ pipeline {
         sh "docker rmi -f ${docker_repo_uri}:${commit_id}"
     }
 }
+    }    
